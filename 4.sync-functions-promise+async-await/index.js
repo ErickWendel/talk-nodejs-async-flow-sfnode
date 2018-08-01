@@ -3,7 +3,7 @@ const {
     promisify
 } = require('util')
 
-const getSandwich = (order, callback) => {
+const getSandwich = (order) => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
 
